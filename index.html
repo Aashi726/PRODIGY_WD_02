@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pro Stopwatch App</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <div class="container">
+    <h1>⏱ Pro Stopwatch</h1>
+    <div class="stopwatch" id="display">00:00:00</div>
+
+    <div class="buttons">
+      <button id="startPauseBtn" class="start" onclick="toggleStartPause()">Start</button>
+      <button class="reset" onclick="reset()">Reset</button>
+      <button class="lap" onclick="recordLap()">Lap</button>
+    </div>
+
+    <ul class="laps" id="laps"></ul>
+  </div>
+  <script src="jscript.js"></script>
+
+</body>
+</html>
